@@ -2,8 +2,6 @@
  * Created by Luiz Henrique Soares on 20/07/2016.
  */
 
-
-
 var app = new Vue({
     
     el: '#app',
@@ -51,7 +49,7 @@ var app = new Vue({
         },
 
         pagePaginatio:function ($event, current) {
-           
+
             this.pagination.current = current + 1;
             this.books = this.pagination.listPagination[current];
 
